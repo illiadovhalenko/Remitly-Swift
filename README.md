@@ -30,8 +30,8 @@ A REST API for managing and querying SWIFT/BIC (Bank Identifier Codes) informati
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/swift-api.git
-   cd swift-api
+   git https://github.com/illiadovhalenko/Remitly-Swift.git
+   cd Remitly-Swift
    ```
 
 2. Build the Docker Image:
