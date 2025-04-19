@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# SQLite database files
+*.db
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Docker
+*.pid
+*.tar
+*.gz
+
+# Test results
+htmlcov/
+.tox/
+.coverage
+.cache/
+pytest_cache/
+
+# MyPy / Pydantic / Ruff / etc
+.mypy_cache/
+.dmypy.json
+.pyre/
+ruff_cache/
+
+swiftremitly
