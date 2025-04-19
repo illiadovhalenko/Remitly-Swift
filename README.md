@@ -36,7 +36,7 @@ A REST API for managing and querying SWIFT/BIC (Bank Identifier Codes) informati
 
 2. Build the Docker Image:
    ```bash
-   docker build -t swift-api . # On Windows: venv\Scripts\activate
+   docker build -t swift-api .
    ```
 
 3. Run the container:
@@ -100,6 +100,11 @@ curl -X 'POST' 'http://localhost:8080/v1/swift-codes/' \
   "countryName": "United States",
   "isHeadquarter": true
 }'
+```
+
+### Delete SWIFT Code
+```bash
+curl -X 'DELETE' 'http://localhost:8080/v1/swift-codes/TEST1234XXX'
 ```
 
 ## Data Structure
